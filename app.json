@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "controleVendas",
+    "name": "Controle Vendas",
     "slug": "controleVendas",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -16,10 +16,14 @@
       "supportsTablet": true
     },
     "android": {
+      "permissions": [
+        "INTERNET"
+      ],
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.brunohs77.controleVendas"
     },
     "web": {
       "bundler": "metro",
@@ -31,6 +35,11 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "eas": {
+        "projectId": "0f700b1a-1123-4f7e-bd51-d5299c980b55"
+      }
     }
   }
 }
