@@ -16,7 +16,7 @@ export default function LoginScreen() {
     }
   
     try {
-      const response = await fetch('https://warleyagentedeviagens.com/aplicativo/login.php', {
+      const response = await fetch('https://site.com/aplicativo/login.php', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -39,8 +39,8 @@ export default function LoginScreen() {
   
 
   return (
-    <ImageBackground source={require('../assets/images/imagem-mapa.webp')} style={styles.background}>
-      <Image source={require('../assets/images/pic-logo-warley-branca.png')} style={styles.logo} />
+    <ImageBackground source={require('../assets/images/imagem-fundo.webp')} style={styles.background}>
+      <Image source={require('../assets/images/pic-logo.png')} style={styles.logo} />
       <Text style={styles.title}>Login</Text>
       {message ? (
         <Text style={[

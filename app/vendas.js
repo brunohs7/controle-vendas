@@ -21,7 +21,7 @@ export default function ViewSalesScreen() {
     const loadSales = async () => {
       try {
         const token = await AsyncStorage.getItem('token');
-        const response = await fetch('https://warleyagentedeviagens.com/aplicativo/sales.php', {
+        const response = await fetch('https://site.com/aplicativo/sales.php', {
           method: 'GET',
           headers: {
             'Content-Type': 'application/json',
@@ -75,7 +75,7 @@ export default function ViewSalesScreen() {
   const removeSale = async (id) => {
     try {
       const token = await AsyncStorage.getItem('token');
-      const response = await fetch(`https://warleyagentedeviagens.com/aplicativo/removeSale.php?id=${id}`, {
+      const response = await fetch(`https://site.com/aplicativo/removeSale.php?id=${id}`, {
         method: 'DELETE',
         headers: {
           'Content-Type': 'application/json',
@@ -128,7 +128,7 @@ export default function ViewSalesScreen() {
   return (
     <View style={{ flex: 1 }}>
       <ScrollView style={styles.scrollGeral} contentContainerStyle={{ flexGrow: 1 }}>
-        <ImageBackground source={require('../assets/images/imagem-mapa.webp')} style={styles.background}>
+        <ImageBackground source={require('../assets/images/imagem-fundo.webp')} style={styles.background}>
           <Text style={styles.title}>Vendas</Text>
           <View style={styles.viewFiltro}>
             <Picker

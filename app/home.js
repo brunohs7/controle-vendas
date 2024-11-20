@@ -10,7 +10,7 @@ export default function HomeScreen() {
       source={require('../assets/images/imagem-mapa.webp')} 
       style={styles.background}
     >
-      <Image source={require('../assets/images/pic-logo-warley-branca.png')} style={styles.logo} />
+      <Image source={require('../assets/images/pic-logo.png')} style={styles.logo} />
       <Text style={styles.title}>Controle de Vendas</Text>
       
       <View style={styles.buttonContainer}>

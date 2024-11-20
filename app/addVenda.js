@@ -34,7 +34,7 @@ export default function AddSaleScreen() {
     try {
       const token = await AsyncStorage.getItem('token');
   
-      const response = await fetch('https://warleyagentedeviagens.com/aplicativo/addSale.php', {
+      const response = await fetch('https://site.com/aplicativo/addSale.php', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -62,7 +62,7 @@ export default function AddSaleScreen() {
   
 
   return (
-    <ImageBackground source={require('../assets/images/imagem-mapa.webp')} style={styles.background}>
+    <ImageBackground source={require('../assets/images/imagem.webp')} style={styles.background}>
       <View style={styles.container}>
         <Text style={styles.title}>Adicionar Venda</Text>
         {message ? (
