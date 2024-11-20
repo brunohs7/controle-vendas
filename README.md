@@ -35,12 +35,12 @@ Este projeto foi desenvolvido como parte de um Projeto de Extensão da Faculdade
 git clone https://github.com/seu-usuario/seu-repositorio.git
 ```
 
-###Configure o backend:
+### Configure o backend:
 
 - Importe o arquivo SQL do banco de dados (se fornecido).
 - Atualize as credenciais e URLs nos arquivos PHP e no arquivo .env.
 
-###Configure o frontend:
+### Configure o frontend:
 
 - Instale as dependências:
 ```bash
@@ -51,10 +51,10 @@ npm install
 expo start
 ```
 
-##Notas Importantes
+## Notas Importantes
 - As credenciais e URLs foram removidas por razões de segurança.
 - Para utilizar o aplicativo, insira suas configurações no arquivo .env e no backend.
 
-##Contribuição
+## Contribuição
 
 Contribuições são bem-vindas! Se você tiver sugestões ou encontrar problemas, fique à vontade para abrir uma issue ou enviar um pull request.
