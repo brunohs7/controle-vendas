@@ -32,7 +32,7 @@ Este projeto foi desenvolvido como parte de um Projeto de Extensão da Faculdade
 
 ### Clone o repositório:  
 ```bash
-git clone https://github.com/seu-usuario/seu-repositorio.git
+git clone https://github.com/brunohs7/controle-vendas.git
 ```
 
 ### Configure o backend:
